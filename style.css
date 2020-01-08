@@ -1,0 +1,26 @@
+body {
+    background: aliceblue;
+    margin: 0;
+}
+
+#holes-container {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+
+#holes-container > div {
+    background: black;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#holes-container > div >p  {
+    color: #fff;
+    z-index: 300;
+}
